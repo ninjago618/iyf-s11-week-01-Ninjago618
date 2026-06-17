@@ -1,4 +1,4 @@
-# iyf-s11-week-01-N# Week {Number}: {Project Title}
+# iyf-s11-week-01-: {Portfolio site}
 
 ## Author
 - **Name:** Alvan njagu
