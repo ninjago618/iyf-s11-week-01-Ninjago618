@@ -31,4 +31,4 @@ Didn't know how to create linking page
 
 
 ## Live Demo (if deployed)
-https://ninjango618.github.io/iyf-s11-week-01/
+https://ninjago618.github.io/iyf-s11-week-01-Ninjago618/
