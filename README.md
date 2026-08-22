@@ -12,6 +12,8 @@ This is a personal website created using html
 - HTML5
 - CSS3
 - JavaScript
+- react
+- node.js
 
 ## Features
 - it displays my github page
