@@ -1,57 +1,156 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Styles.css">
   <title>My Skills</title>
+  <style>
+    .skill-level {
+      display: flex;
+      gap: 10px;
+      margin-top: 8px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .level-bar {
+      width: 100px;
+      height: 8px;
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .level-fill {
+      height: 100%;
+      background-color: #4CAF50;
+      border-radius: 4px;
+    }
+    .skill-category {
+      margin-bottom: 15px;
+    }
+  </style>
 </head>
 
 <body>
   <nav>
     <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="skills.html">Skills</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="contacts.html">contacts</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
     </ul>
   </nav>
 
   <section id="skills">
     <h2>My Skills</h2>
+    <p>A comprehensive overview of my technical expertise and professional capabilities.</p>
 
     <div class="skills-container">
 
-      <div class="skill">
-        <h3>Frontend Development</h3>
-        <p>HTML, CSS, JavaScript, React, Vite</p>
+      <div class="skill-category">
+        <div class="skill">
+          <h3>Frontend Development</h3>
+          <p>HTML, CSS, JavaScript, React, Vite</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Building responsive, interactive user interfaces with modern web technologies. Experience creating single-page applications and component-based architectures.</p>
+          <div class="skill-level">
+            <span>Proficiency:</span>
+            <div class="level-bar">
+              <div class="level-fill" style="width: 85%;"></div>
+            </div>
+            <span>Advanced</span>
+          </div>
+        </div>
       </div>
 
-      <div class="skill">
-        <h3>Backend Development</h3>
-        <p>Node.js, Express.js, REST APIs</p>
+      <div class="skill-category">
+        <div class="skill">
+          <h3>Backend Development</h3>
+          <p>Node.js, Express.js, REST APIs</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Designing and implementing server-side logic, API endpoints, and application architecture. Building scalable and efficient backend systems.</p>
+          <div class="skill-level">
+            <span>Proficiency:</span>
+            <div class="level-bar">
+              <div class="level-fill" style="width: 80%;"></div>
+            </div>
+            <span>Advanced</span>
+          </div>
+        </div>
       </div>
 
-      <div class="skill">
-        <h3>Database</h3>
-        <p>MongoDB, MongoDB Atlas</p>
+      <div class="skill-category">
+        <div class="skill">
+          <h3>Database</h3>
+          <p>MongoDB, MongoDB Atlas</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Database design, data modeling, and management. Experience with NoSQL databases and cloud-based solutions for data persistence.</p>
+          <div class="skill-level">
+            <span>Proficiency:</span>
+            <div class="level-bar">
+              <div class="level-fill" style="width: 78%;"></div>
+            </div>
+            <span>Advanced</span>
+          </div>
+        </div>
       </div>
 
-      <div class="skill">
-        <h3>Version Control</h3>
-        <p>Git, GitHub</p>
+      <div class="skill-category">
+        <div class="skill">
+          <h3>Version Control</h3>
+          <p>Git, GitHub</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Repository management, branching strategies, and collaborative development. Proficient with pull requests, code reviews, and version history.</p>
+          <div class="skill-level">
+            <span>Proficiency:</span>
+            <div class="level-bar">
+              <div class="level-fill" style="width: 90%;"></div>
+            </div>
+            <span>Expert</span>
+          </div>
+        </div>
       </div>
 
-      <div class="skill">
-        <h3>Development Tools</h3>
-        <p>VS Code, GitHub Codespaces</p>
+      <div class="skill-category">
+        <div class="skill">
+          <h3>Development Tools</h3>
+          <p>VS Code, GitHub Codespaces</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Proficient with industry-standard development environments and tools. Experience with extensions, debugging, and productivity optimization.</p>
+          <div class="skill-level">
+            <span>Proficiency:</span>
+            <div class="level-bar">
+              <div class="level-fill" style="width: 88%;"></div>
+            </div>
+            <span>Advanced</span>
+          </div>
+        </div>
       </div>
 
-      <div class="skill">
-        <h3>Other Skills</h3>
-        <p>Debugging, Problem Solving, Team Collaboration</p>
+      <div class="skill-category">
+        <div class="skill">
+          <h3>Professional Skills</h3>
+          <p>Debugging, Problem Solving, Team Collaboration</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Strong analytical and critical thinking abilities. Experienced in identifying and resolving technical issues, working effectively in teams, and communicating complex ideas clearly.</p>
+          <div class="skill-level">
+            <span>Proficiency:</span>
+            <div class="level-bar">
+              <div class="level-fill" style="width: 92%;"></div>
+            </div>
+            <span>Expert</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill">
+          <h3>Full-Stack Development</h3>
+          <p>End-to-end web application development combining frontend, backend, and database technologies.</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Capable of building complete web applications from conception to deployment. Experience architecting solutions that integrate multiple technologies for seamless user experiences.</p>
+          <div class="skill-level">
+            <span>Proficiency:</span>
+            <div class="level-bar">
+              <div class="level-fill" style="width: 82%;"></div>
+            </div>
+            <span>Advanced</span>
+          </div>
+        </div>
       </div>
 
     </div>
