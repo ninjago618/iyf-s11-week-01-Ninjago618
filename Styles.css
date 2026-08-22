@@ -7,23 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     color: white;
-    background-color: #0f0f0f; /* fallback color */
-
-    /* Modern gradient background - no external image */
-    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);
-    background-attachment: fixed;
-}
-
-/* semi-transparent overlay for enhanced contrast */
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: 
-        radial-gradient(circle at 20% 50%, rgba(100, 150, 255, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(150, 100, 255, 0.05) 0%, transparent 50%);
-    pointer-events: none;
-    z-index: 0;
+    background-color: #0f0f0f;
 }
 
 /* ensure page content is above the overlay */
