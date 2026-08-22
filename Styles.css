@@ -1,13 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0; /* ensure background fills the viewport */
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                      url('https://images.unsplash.com/photo-1557821552-17105176677c?w=1200');
+    min-height: 100vh;
+    color: white;
+    background-color: #000; /* fallback color */
+
+    /* Use the image as the main background */
+    background-image: url('https://images.unsplash.com/photo-1557821552-17105176677c?w=1200');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
-    min-height: 100vh;
+}
+
+/* semi-transparent overlay so text stays readable */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* ensure page content is above the overlay */
+main, nav {
+    position: relative;
+    z-index: 1;
 }
 
 /* Navigation */
