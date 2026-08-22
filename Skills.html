@@ -6,13 +6,38 @@
   <link rel="stylesheet" href="Styles.css">
   <title>My Skills</title>
   <style>
+    .skills-container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .skill {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #4CAF50;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .skill h3 {
+      margin: 0 0 10px 0;
+      color: #333;
+    }
+
+    .skill p {
+      margin: 8px 0;
+    }
+
     .skill-level {
       display: flex;
       gap: 10px;
       margin-top: 8px;
       font-size: 0.9em;
       color: #666;
+      align-items: center;
     }
+
     .level-bar {
       width: 100px;
       height: 8px;
@@ -20,13 +45,30 @@
       border-radius: 4px;
       overflow: hidden;
     }
+
     .level-fill {
       height: 100%;
       background-color: #4CAF50;
       border-radius: 4px;
     }
+
     .skill-category {
       margin-bottom: 15px;
+    }
+
+    #skills {
+      padding: 20px;
+    }
+
+    #skills h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    #skills > p {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px;
     }
   </style>
 </head>
@@ -36,7 +78,7 @@
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="skills.html">Skills</a></li>
+      <li><a href="Skills.html">Skills</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="contacts.html">Contacts</a></li>
     </ul>
@@ -52,7 +94,7 @@
         <div class="skill">
           <h3>Frontend Development</h3>
           <p>HTML, CSS, JavaScript, React, Vite</p>
-          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Building responsive, interactive user interfaces with modern web technologies. Experience creating single-page applications and component-based architectures.</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Building responsive, interactive user interfaces with modern web technologies. Experience creating single-page applications and components.</p>
           <div class="skill-level">
             <span>Proficiency:</span>
             <div class="level-bar">
@@ -97,7 +139,7 @@
         <div class="skill">
           <h3>Version Control</h3>
           <p>Git, GitHub</p>
-          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Repository management, branching strategies, and collaborative development. Proficient with pull requests, code reviews, and version history.</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Repository management, branching strategies, and collaborative development. Proficient with pull requests, code reviews, and versioning.</p>
           <div class="skill-level">
             <span>Proficiency:</span>
             <div class="level-bar">
@@ -127,7 +169,7 @@
         <div class="skill">
           <h3>Professional Skills</h3>
           <p>Debugging, Problem Solving, Team Collaboration</p>
-          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Strong analytical and critical thinking abilities. Experienced in identifying and resolving technical issues, working effectively in teams, and communicating complex ideas clearly.</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Strong analytical and critical thinking abilities. Experienced in identifying and resolving technical issues, working effectively in teams.</p>
           <div class="skill-level">
             <span>Proficiency:</span>
             <div class="level-bar">
@@ -142,7 +184,7 @@
         <div class="skill">
           <h3>Full-Stack Development</h3>
           <p>End-to-end web application development combining frontend, backend, and database technologies.</p>
-          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Capable of building complete web applications from conception to deployment. Experience architecting solutions that integrate multiple technologies for seamless user experiences.</p>
+          <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Capable of building complete web applications from conception to deployment. Experience architecting solutions that integrate multiple technologies.</p>
           <div class="skill-level">
             <span>Proficiency:</span>
             <div class="level-bar">
