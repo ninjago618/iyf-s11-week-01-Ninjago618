@@ -10,11 +10,12 @@ body {
     background-color: #000; /* fallback color */
 
     /* Use the image as the main background */
-    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200');
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-clip: border-box;
 }
 
 /* semi-transparent overlay so text stays readable */
