@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
+    background-image:url(https://imgcdn.stablediffusionweb.com/2024/12/23/a88a26cb-97a5-4ecc-9910-5c1452e3d419.jpg)
+        }
     margin: 0; /* ensure background fills the viewport */
 }
 
