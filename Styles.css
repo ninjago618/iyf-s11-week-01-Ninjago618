@@ -8,7 +8,8 @@ body {
     min-height: 100vh;
     color: white;
     background-color: #0f0f0f;
-    background-image: none;
+  background-image:url(https://imgcdn.stablediffusionweb.com/2024/12/23/a88a26cb-97a5-4ecc-9910-5c1452e3d419.jpg)
+        }
 }
 
 /* ensure page content is above the overlay */
